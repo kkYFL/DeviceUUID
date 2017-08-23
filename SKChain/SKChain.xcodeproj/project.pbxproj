@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ACA54211F4D53040089B983 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA54201F4D53040089B983 /* main.m */; };
+		3ACA54241F4D53040089B983 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA54231F4D53040089B983 /* AppDelegate.m */; };
+		3ACA54271F4D53040089B983 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA54261F4D53040089B983 /* ViewController.m */; };
+		3ACA542A1F4D53040089B983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACA54281F4D53040089B983 /* Main.storyboard */; };
+		3ACA542C1F4D53040089B983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ACA542B1F4D53040089B983 /* Assets.xcassets */; };
+		3ACA542F1F4D53040089B983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ACA542D1F4D53040089B983 /* LaunchScreen.storyboard */; };
+		3ACA543A1F4D53040089B983 /* SKChainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA54391F4D53040089B983 /* SKChainTests.m */; };
+		3ACA54451F4D53040089B983 /* SKChainUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA54441F4D53040089B983 /* SKChainUITests.m */; };
+		3ACA545B1F4D53740089B983 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ACA545A1F4D53740089B983 /* Security.framework */; };
+		3ACA54611F4D56940089B983 /* SAMKeychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA545E1F4D56940089B983 /* SAMKeychain.m */; };
+		3ACA54621F4D56940089B983 /* SAMKeychainQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA54601F4D56940089B983 /* SAMKeychainQuery.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ACA54361F4D53040089B983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ACA54141F4D53040089B983 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ACA541B1F4D53040089B983;
+			remoteInfo = SKChain;
+		};
+		3ACA54411F4D53040089B983 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ACA54141F4D53040089B983 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ACA541B1F4D53040089B983;
+			remoteInfo = SKChain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ACA541C1F4D53040089B983 /* SKChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACA54201F4D53040089B983 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ACA54221F4D53040089B983 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3ACA54231F4D53040089B983 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3ACA54251F4D53040089B983 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3ACA54261F4D53040089B983 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3ACA54291F4D53040089B983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ACA542B1F4D53040089B983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ACA542E1F4D53040089B983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3ACA54301F4D53040089B983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACA54351F4D53040089B983 /* SKChainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKChainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACA54391F4D53040089B983 /* SKChainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKChainTests.m; sourceTree = "<group>"; };
+		3ACA543B1F4D53040089B983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACA54401F4D53040089B983 /* SKChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ACA54441F4D53040089B983 /* SKChainUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKChainUITests.m; sourceTree = "<group>"; };
+		3ACA54461F4D53040089B983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ACA545A1F4D53740089B983 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3ACA545D1F4D56940089B983 /* SAMKeychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychain.h; sourceTree = "<group>"; };
+		3ACA545E1F4D56940089B983 /* SAMKeychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychain.m; sourceTree = "<group>"; };
+		3ACA545F1F4D56940089B983 /* SAMKeychainQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMKeychainQuery.h; sourceTree = "<group>"; };
+		3ACA54601F4D56940089B983 /* SAMKeychainQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMKeychainQuery.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ACA54191F4D53040089B983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACA545B1F4D53740089B983 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACA54321F4D53040089B983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACA543D1F4D53040089B983 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ACA54131F4D53040089B983 = {
+			isa = PBXGroup;
+			children = (
+				3ACA54521F4D53330089B983 /* SAMKeychain */,
+				3ACA541E1F4D53040089B983 /* SKChain */,
+				3ACA54381F4D53040089B983 /* SKChainTests */,
+				3ACA54431F4D53040089B983 /* SKChainUITests */,
+				3ACA541D1F4D53040089B983 /* Products */,
+				3ACA54591F4D53740089B983 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3ACA541D1F4D53040089B983 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA541C1F4D53040089B983 /* SKChain.app */,
+				3ACA54351F4D53040089B983 /* SKChainTests.xctest */,
+				3ACA54401F4D53040089B983 /* SKChainUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ACA541E1F4D53040089B983 /* SKChain */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA54221F4D53040089B983 /* AppDelegate.h */,
+				3ACA54231F4D53040089B983 /* AppDelegate.m */,
+				3ACA54251F4D53040089B983 /* ViewController.h */,
+				3ACA54261F4D53040089B983 /* ViewController.m */,
+				3ACA54281F4D53040089B983 /* Main.storyboard */,
+				3ACA542B1F4D53040089B983 /* Assets.xcassets */,
+				3ACA542D1F4D53040089B983 /* LaunchScreen.storyboard */,
+				3ACA54301F4D53040089B983 /* Info.plist */,
+				3ACA541F1F4D53040089B983 /* Supporting Files */,
+			);
+			path = SKChain;
+			sourceTree = "<group>";
+		};
+		3ACA541F1F4D53040089B983 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA54201F4D53040089B983 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3ACA54381F4D53040089B983 /* SKChainTests */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA54391F4D53040089B983 /* SKChainTests.m */,
+				3ACA543B1F4D53040089B983 /* Info.plist */,
+			);
+			path = SKChainTests;
+			sourceTree = "<group>";
+		};
+		3ACA54431F4D53040089B983 /* SKChainUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA54441F4D53040089B983 /* SKChainUITests.m */,
+				3ACA54461F4D53040089B983 /* Info.plist */,
+			);
+			path = SKChainUITests;
+			sourceTree = "<group>";
+		};
+		3ACA54521F4D53330089B983 /* SAMKeychain */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA545C1F4D56940089B983 /* Sources */,
+			);
+			path = SAMKeychain;
+			sourceTree = "<group>";
+		};
+		3ACA54591F4D53740089B983 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA545A1F4D53740089B983 /* Security.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3ACA545C1F4D56940089B983 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3ACA545D1F4D56940089B983 /* SAMKeychain.h */,
+				3ACA545E1F4D56940089B983 /* SAMKeychain.m */,
+				3ACA545F1F4D56940089B983 /* SAMKeychainQuery.h */,
+				3ACA54601F4D56940089B983 /* SAMKeychainQuery.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ACA541B1F4D53040089B983 /* SKChain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ACA54491F4D53040089B983 /* Build configuration list for PBXNativeTarget "SKChain" */;
+			buildPhases = (
+				3ACA54181F4D53040089B983 /* Sources */,
+				3ACA54191F4D53040089B983 /* Frameworks */,
+				3ACA541A1F4D53040089B983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKChain;
+			productName = SKChain;
+			productReference = 3ACA541C1F4D53040089B983 /* SKChain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ACA54341F4D53040089B983 /* SKChainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ACA544C1F4D53040089B983 /* Build configuration list for PBXNativeTarget "SKChainTests" */;
+			buildPhases = (
+				3ACA54311F4D53040089B983 /* Sources */,
+				3ACA54321F4D53040089B983 /* Frameworks */,
+				3ACA54331F4D53040089B983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ACA54371F4D53040089B983 /* PBXTargetDependency */,
+			);
+			name = SKChainTests;
+			productName = SKChainTests;
+			productReference = 3ACA54351F4D53040089B983 /* SKChainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3ACA543F1F4D53040089B983 /* SKChainUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ACA544F1F4D53040089B983 /* Build configuration list for PBXNativeTarget "SKChainUITests" */;
+			buildPhases = (
+				3ACA543C1F4D53040089B983 /* Sources */,
+				3ACA543D1F4D53040089B983 /* Frameworks */,
+				3ACA543E1F4D53040089B983 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ACA54421F4D53040089B983 /* PBXTargetDependency */,
+			);
+			name = SKChainUITests;
+			productName = SKChainUITests;
+			productReference = 3ACA54401F4D53040089B983 /* SKChainUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ACA54141F4D53040089B983 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "杨丰林";
+				TargetAttributes = {
+					3ACA541B1F4D53040089B983 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KK5694975F;
+						ProvisioningStyle = Automatic;
+					};
+					3ACA54341F4D53040089B983 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KK5694975F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3ACA541B1F4D53040089B983;
+					};
+					3ACA543F1F4D53040089B983 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = KK5694975F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3ACA541B1F4D53040089B983;
+					};
+				};
+			};
+			buildConfigurationList = 3ACA54171F4D53040089B983 /* Build configuration list for PBXProject "SKChain" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ACA54131F4D53040089B983;
+			productRefGroup = 3ACA541D1F4D53040089B983 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ACA541B1F4D53040089B983 /* SKChain */,
+				3ACA54341F4D53040089B983 /* SKChainTests */,
+				3ACA543F1F4D53040089B983 /* SKChainUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ACA541A1F4D53040089B983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACA542F1F4D53040089B983 /* LaunchScreen.storyboard in Resources */,
+				3ACA542C1F4D53040089B983 /* Assets.xcassets in Resources */,
+				3ACA542A1F4D53040089B983 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACA54331F4D53040089B983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACA543E1F4D53040089B983 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ACA54181F4D53040089B983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACA54271F4D53040089B983 /* ViewController.m in Sources */,
+				3ACA54611F4D56940089B983 /* SAMKeychain.m in Sources */,
+				3ACA54621F4D56940089B983 /* SAMKeychainQuery.m in Sources */,
+				3ACA54241F4D53040089B983 /* AppDelegate.m in Sources */,
+				3ACA54211F4D53040089B983 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACA54311F4D53040089B983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACA543A1F4D53040089B983 /* SKChainTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ACA543C1F4D53040089B983 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ACA54451F4D53040089B983 /* SKChainUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ACA54371F4D53040089B983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ACA541B1F4D53040089B983 /* SKChain */;
+			targetProxy = 3ACA54361F4D53040089B983 /* PBXContainerItemProxy */;
+		};
+		3ACA54421F4D53040089B983 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ACA541B1F4D53040089B983 /* SKChain */;
+			targetProxy = 3ACA54411F4D53040089B983 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ACA54281F4D53040089B983 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ACA54291F4D53040089B983 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ACA542D1F4D53040089B983 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ACA542E1F4D53040089B983 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ACA54471F4D53040089B983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3ACA54481F4D53040089B983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ACA544A1F4D53040089B983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KK5694975F;
+				INFOPLIST_FILE = SKChain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YFL.Testl.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		3ACA544B1F4D53040089B983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = KK5694975F;
+				INFOPLIST_FILE = SKChain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YFL.Testl.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		3ACA544D1F4D53040089B983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KK5694975F;
+				INFOPLIST_FILE = SKChainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YFL.SKChainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKChain.app/SKChain";
+			};
+			name = Debug;
+		};
+		3ACA544E1F4D53040089B983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = KK5694975F;
+				INFOPLIST_FILE = SKChainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YFL.SKChainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKChain.app/SKChain";
+			};
+			name = Release;
+		};
+		3ACA54501F4D53040089B983 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KK5694975F;
+				INFOPLIST_FILE = SKChainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YFL.SKChainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKChain;
+			};
+			name = Debug;
+		};
+		3ACA54511F4D53040089B983 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = KK5694975F;
+				INFOPLIST_FILE = SKChainUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YFL.SKChainUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SKChain;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ACA54171F4D53040089B983 /* Build configuration list for PBXProject "SKChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACA54471F4D53040089B983 /* Debug */,
+				3ACA54481F4D53040089B983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ACA54491F4D53040089B983 /* Build configuration list for PBXNativeTarget "SKChain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACA544A1F4D53040089B983 /* Debug */,
+				3ACA544B1F4D53040089B983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ACA544C1F4D53040089B983 /* Build configuration list for PBXNativeTarget "SKChainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACA544D1F4D53040089B983 /* Debug */,
+				3ACA544E1F4D53040089B983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ACA544F1F4D53040089B983 /* Build configuration list for PBXNativeTarget "SKChainUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ACA54501F4D53040089B983 /* Debug */,
+				3ACA54511F4D53040089B983 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ACA54141F4D53040089B983 /* Project object */;
+}
